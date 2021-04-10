@@ -1,0 +1,109 @@
+ <!-- Required meta tags -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- font link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <!-- font link -->
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>JQ Ui Interactions</title>
+  </head>
+ <body>
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+
+                        <!-- draggable around -->
+                        <h4 class="text-danger">Draggable Around:</h4>
+                        <div id="dragg" class="ui-widget-content">
+                            <p>Drag me around</p>
+                        </div>
+                        <hr>
+                        <!-- droppable -->
+                        <h4 class="text-danger">Droppable Around:</h4>
+                        <div id="draggable1" class="ui-widget-content">
+                            <p>Drag me to my target</p>
+                        </div>
+ 
+                        <div id="droppable1" class="ui-widget-header">
+                          <p>Drop here</p>
+                        </div>
+                        
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                                            
+                        <hr>
+                        <!-- resizable  -->
+                        <h4 class="text-danger">Resizable:</h4>
+                        <div id="resizable" class="ui-widget-content">
+                          <h3 class="ui-widget-header">Resizable</h3>
+                          <p>Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Esse, adipisci? Quisquam, necessitatibus dicta eligendi architecto possimus, eius esse inventore officia deserunt eos odit porro nobis maiores magnam ipsam delectus id ducimus ipsa nulla voluptates. Sunt harum omnis dolore tempore, soluta minus qui eum repellat adipisci ipsa, voluptas numquam. Cupiditate, corporis.</p>
+                        </div>
+                        <hr>
+                    <!-- selectable -->
+                       <div class="col-12">
+                        <h4 class="text-danger">Selectable:</h4>
+                            <ol id="selectable">
+                                <li class="ui-widget-content">Item 1</li>
+                                <li class="ui-widget-content">Item 2</li>
+                                <li class="ui-widget-content">Item 3</li>
+                                <li class="ui-widget-content">Item 4</li>
+                                <li class="ui-widget-content">Item 5</li>
+                                <li class="ui-widget-content">Item 6</li>
+                                <li class="ui-widget-content">Item 7</li>
+                            </ol>
+                            <hr>
+                            <!-- sortable -->
+                            <h4 class="text-danger">Sortable:</h4>
+                            <ul id="sortable">
+                              <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1</li>
+                              <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 2</li>
+                              <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 3</li>
+                              <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 4</li>
+                              <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 5</li>
+                              <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 6</li>
+                              <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 7</li>
+                            </ul>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <a href="sec-page.html" class=" btn btn-danger m-4" target="blank">Next</a>
+                </div>
+            </div>
+        </div>
+
+
+
+    
+    <!-- js link -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
